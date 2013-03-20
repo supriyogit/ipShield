@@ -1,0 +1,12 @@
+rm -rf inout
+mkdir inout
+
+copy_framework
+decode_framework
+
+copy_override
+decode_override
+
+patch_framework
+
+build_framework

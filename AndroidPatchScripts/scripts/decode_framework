@@ -1,0 +1,4 @@
+echo "Decode framework.jar"
+baksmali \
+  inout/extracted/framework.jar \
+  -o inout/framework_decoded
