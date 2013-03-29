@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent">
+<LinearLayout android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+
+
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="DEMO"
+              android:textSize="12pt"
+              android:paddingBottom="1pt"
+              android:paddingLeft="10pt"
+              android:paddingTop="2pt"
+            />
+
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="OVERRIDE: Injecting Synthetic Sensor Data for Improved Context-Aware Apps and Controlled Context Release."
+              android:textSize="6pt"
+              android:paddingRight="10pt"
+              android:paddingLeft="10pt"
+              android:paddingTop="1pt"
+              android:paddingBottom="10pt"
+            />
+
+    <TextView android:id="@+id/txtAccel"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:paddingBottom="10pt"
+              android:paddingTop="10pt"
+              android:text="---ACCEL UPDATES RECEIVED HERE---"/>
+
+    <EditText android:id="@+id/edtPackage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12pt"
+            android:paddingBottom="10pt"
+            android:paddingTop="2pt"
+            android:text=""/>
+
+
+    <Button android:id="@+id/btnSuppress"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12pt"
+            android:paddingBottom="10pt"
+            android:paddingTop="2pt"
+            android:text="Click to suppress data sent to this app"/>
+
+    <Button android:id="@+id/btnPerturb"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12pt"
+            android:paddingBottom="10pt"
+            android:paddingTop="2pt"
+            android:text="Click to perturb data sent to this app"/>
+
+    <Button android:id="@+id/btnReset"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12pt"
+            android:paddingBottom="10pt"
+            android:paddingTop="2pt"
+            android:text="Click to allow data sent to this app"/>
+
+    <Button android:id="@+id/btnAccSuppress"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12pt"
+            android:paddingBottom="10pt"
+            android:paddingTop="2pt"
+            android:text="Click to suppress Acc Data"/>
+
+    <Button android:id="@+id/btnAccRelease"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12pt"
+            android:paddingBottom="10pt"
+            android:paddingTop="2pt"
+            android:text="Click to Allow Acc Data"/>
+
+    <TextView android:id="@+id/txtLocation"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:paddingBottom="10pt"
+              android:paddingTop="10pt"
+              android:text="---LOCATION UPDATES RECEIVED HERE---"/>
+
+    <TextView android:id="@+id/txtInstalledPackages"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textSize="10pt"
+              android:text=""/>
+</LinearLayout>
+</ScrollView>
+
